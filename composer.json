@@ -1,4 +1,5 @@
 {
+    "name": "quayle/elektroniczny-nadawca",
     "type": "library",
     "require": {
         "wsdl2phpgenerator/wsdl2phpgenerator": "^3.3"
