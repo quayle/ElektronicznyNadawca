@@ -1,0 +1,16 @@
+{
+    "type": "library",
+    "require": {
+        "wsdl2phpgenerator/wsdl2phpgenerator": "^3.3"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "php bin/build.php"
+        ]
+    },
+    "autoload": {
+        "psr-0": {
+            "PocztaPolska\\ElektronicznyNadawca": "lib/ElektronicznyNadawca"
+        }
+    }
+}
